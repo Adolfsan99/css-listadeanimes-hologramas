@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="./css/estilos.css" />
   </head>
   <body>
-    <p class="creditos">Pagina hecha por Adolfo Sánchez Lopéz</p>
+
 
     <p class="titulo">Mis recomendaciones</p>
 
@@ -26,9 +26,7 @@
           class="card-img-character"
           src="./img/asc/character.webp">
         </a>
-        <br><br>
         <p class="card-text-tittle">Assesination Classroom</p>
-        <br><br>
     </article>
 
 
@@ -44,9 +42,7 @@
           src="./img/gto/character.png"
         />
         </a>
-        <br><br>
         <p class="card-text-tittle">Great Teacher Onizuka</p>
-        <br><br>
       </article>
 
 
@@ -62,9 +58,7 @@
           src="./img/fmp/character.png"
         />
         </a>
-        <br><br>
         <p class="card-text-tittle">Full Metal Panic!</p>
-        <br><br>
       </article>
 
 
@@ -80,11 +74,22 @@
           src="./img/jjba/character.png"
         />
         </a>
-        <br><br>
         <p class="card-text-tittle">JoJo Bizzare Adventure</p>
-        <br><br>
       </article>
     </section>
 
   </body>
+
+  <script>
+
+    // PARA QUE SIRVE ESTO?
+    // Para calcular la altura vertical y aplicar correctamente el background con gradiente
+
+    // Obtener la altura de la barra de desplazamiento
+    const scrollbarHeight = window.innerWidth - document.documentElement.clientWidth;
+  
+    // Establecer el padding-bottom del body a la altura de la barra de desplazamiento
+    document.body.style.paddingBottom = `${scrollbarHeight}px`;
+  </script>
+
 </html>

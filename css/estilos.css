@@ -1,6 +1,12 @@
-html {background: linear-gradient(0deg, rgb(34, 193, 195) 0%, rgb(253, 187, 45)  100%);min-width: 240px;min-height: 1280px;}
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #e5e5e5;
+  }
+
 .lista { display: flex; flex-flow: row wrap; justify-content: center; }
-.titulo { font-family: cursive; font-size: 20px; text-align: center; color: rgb(255, 255, 255); background: linear-gradient(0deg, rgb(34, 193, 195) 0%, rgb(51, 45, 253) 100%); padding-bottom: 1rem; padding-top: 1rem; border-radius: 50px; margin-left: 3rem; margin-right: 3rem; }
+.titulo { font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 20px; text-align: center; color: rgb(255, 255, 255); background: linear-gradient(0deg, rgb(34, 193, 195) 0%, rgb(51, 45, 253) 100%); padding-bottom: 1rem; padding-top: 1rem; border-radius: 50px; margin-left: 3rem; margin-right: 3rem; }
 .creditos {font-family: cursive; color: #000;}
 .card { transition: all 0.3s ease 0s; position: relative; width: 15rem; height: 20rem; margin: 6rem 1rem 0rem 0rem; box-shadow: rgba(0, 0, 0, 0.1) 0px 34px 41px 28px, rgba(0, 0, 0, 0.2) 0px 10px 15px -3px; }
 .card:hover { transform: perspective(250px) rotate(0deg) translateY(-5%) translateZ(0px); cursor: pointer; }
