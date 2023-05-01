@@ -1,1 +1,1 @@
-# practica-animelist
+# css-listadeanimes-hologramas
